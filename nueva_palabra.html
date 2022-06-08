@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Nueva Palabra</title>
+    <link rel="stylesheet" href="css/nueva_palabra.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo" alt="Logo">
+            <img src="img/logo_a.png">
+        </div>
+    </header>
+    <main>
+        <div class="Mensaje ">
+            <p class="caracteresespeciales invisible">No se Admiten Caracteres Especiales</p>
+            <p class="vacio invisible">Ingrese minimo 3 caracteres</p>
+            <p class="limite invisible">Solo se pueden ingresar 15 caracteres</p>
+            <p class="numero">0</p>
+        </div>
+        <div class="contenedor_text">
+            <textarea placeholder="Ingrese Nueva Palabra.. " onkeyup="javascript:this.value=this.value.toUpperCase();" minlength="3" maxlength="15"></textarea>
+        </div>
+        <div class="contenedor_boton">
+            <button class="boton-azul nueva_palabra">Agregar Palabra</button>
+        </div>
+    </main>
+    <script src="js/nueva_palabra.js"></script>
+</body>
+
+</html>

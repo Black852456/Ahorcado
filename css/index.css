@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: #f1f1f1;
+}
+
+.logo {
+    width: 100%;
+    font-size: 100px;
+    color: #0A3871;
+    margin: 0 50px;
+}
+
+.contenedor-botones {
+    width: 100%;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.boton-azul {
+    align-items: flex-start;
+    flex-direction: row;
+    padding: 24px;
+    position: static;
+    width: 250px;
+    height: 67px;
+    left: 0px;
+    top: 0px;
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    color: #FFFFFF;
+    border-radius: 15px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-size: large;
+}
+
+.boton-azul:hover {
+    background: transparent;
+    border: 1px solid #0A3871;
+    color: #0A3871;
+}
+
+.boton-transparente {
+    align-items: flex-start;
+    flex-direction: row;
+    padding: 24px;
+    position: static;
+    width: 250px;
+    height: 67px;
+    left: 0px;
+    top: 0px;
+    background: transparent;
+    border: 1px solid #0A3871;
+    color: #0A3871;
+    border-radius: 15px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-size: large;
+}
+
+.boton-transparente:hover {
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    color: #FFFFFF;
+}
